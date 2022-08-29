@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Recursos/404-not-found-master/devchallenges.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;800&display=swap" rel="stylesheet">
+    <title>404 Not Found</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+        }
+        body {
+            font-family:Source Code Pro;
+        }
+        .main-container {
+            margin: 100px 80px 0px 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .img-container{
+            width: 60%;
+            margin-right: 40px;
+        }
+        img{
+            width: 100%;
+        }
+        .container1{
+            margin-left: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+        h1{
+            margin: 0;
+            font-size: 68px;
+            ;
+        }
+        p{
+            margin: 0;
+            width: 60%;
+            font-size: 20px;
+        }
+        button{
+
+            width: 200px;
+            height: 60px;
+            background-color: #201c1b;
+            color: white;
+        }
+        @media (max-width: 640px){
+            .main-container{
+                margin: 30px 30px 0 30px;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .img-container{
+            width: 100%;
+            }
+            .container1{
+                margin: 40px 0 0 0;
+            }
+            h1{
+                font-size: 46px;
+                margin-bottom: 30px;
+            }
+            p{
+                width: 80%;
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            button{
+                margin-top: 40px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 20px; font: weight 800px; ;">404 NOT FOUND</p>
+    <div class="main-container">
+            <div class="img-container"><img src="./Recursos/404-not-found-master/Scarecrow.png" alt=""></div>
+            <div class="container1">
+            <h1>I have bad news for you</h1>
+            <p>The page you are looking for might be removed or is temporary unavailable </p>
+            <button>BACK TO HOMPAGE</button>
+        </div>
+    </div>
+</body>
+</html>
